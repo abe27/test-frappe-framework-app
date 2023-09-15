@@ -1,0 +1,124 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:article_name",
+ "creation": "2023-09-15 12:28:34.914747",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "article_name",
+  "author",
+  "column_break_fh087",
+  "publisher",
+  "column_break_dexar",
+  "isbn",
+  "section_break_ud7pp",
+  "description",
+  "tab_break_5pqfx",
+  "status",
+  "image"
+ ],
+ "fields": [
+  {
+   "fieldname": "article_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Article Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Attach Image",
+   "hidden": 1,
+   "label": "Image"
+  },
+  {
+   "fieldname": "author",
+   "fieldtype": "Data",
+   "label": "Author"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text Editor",
+   "label": "Description"
+  },
+  {
+   "fieldname": "isbn",
+   "fieldtype": "Data",
+   "label": "ISBN"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Issued\nAvailable"
+  },
+  {
+   "fieldname": "publisher",
+   "fieldtype": "Data",
+   "label": "Publisher"
+  },
+  {
+   "fieldname": "column_break_fh087",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_ud7pp",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_dexar",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tab_break_5pqfx",
+   "fieldtype": "Tab Break",
+   "label": "Status"
+  }
+ ],
+ "image_field": "image",
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "make_attachments_public": 1,
+ "modified": "2023-09-15 13:40:57.693805",
+ "modified_by": "Administrator",
+ "module": "Library Management",
+ "name": "Article",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Library Member",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
